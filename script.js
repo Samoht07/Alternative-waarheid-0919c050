@@ -31,14 +31,14 @@ function controleer() {
         document.getElementById("ans3");
     }
 
-    if (vraag4 == auto.includes[0, 1, 2, 3, 4, 5, 6]) {
+    if (auto.includes(vraag4)) {
         document.getElementById("ans4");
         punten += 1;
     } else {
         document.getElementById("ans4");
     }
 
-    if (vraag5 == wadden.includes[0, 1, 2, 3, 4]) {
+    if (wadden.includes(vraag5)) {
         document.getElementById("ans5");
         punten += 1;
     } else {
